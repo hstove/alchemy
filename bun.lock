@@ -52,7 +52,7 @@
         "find-process": "^2.0.0",
         "glob": "^10.0.0",
         "jszip": "^3.0.0",
-        "libsodium-wrappers": "0.7.15",
+        "libsodium-wrappers": "^0.8.0",
         "miniflare": "^4.20250906.0",
         "neverthrow": "^8.2.0",
         "open": "^10.1.2",
@@ -3941,9 +3941,9 @@
 
     "levn": ["levn@0.4.1", "", { "dependencies": { "prelude-ls": "^1.2.1", "type-check": "~0.4.0" } }, "sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ=="],
 
-    "libsodium": ["libsodium@0.7.15", "", {}, "sha512-sZwRknt/tUpE2AwzHq3jEyUU5uvIZHtSssktXq7owd++3CSgn8RGrv6UZJJBpP7+iBghBqe7Z06/2M31rI2NKw=="],
+    "libsodium": ["libsodium@0.8.0", "", {}, "sha512-GQ4Sg0/Z0Ui6ZvKeTd8bH7VAAqk1ZHZDAo/pcuSi0uPbIN6LYAAotR0GEYb8v+y4/tSsXZPr06D6hhqKd7tnoQ=="],
 
-    "libsodium-wrappers": ["libsodium-wrappers@0.7.15", "", { "dependencies": { "libsodium": "^0.7.15" } }, "sha512-E4anqJQwcfiC6+Yrl01C1m8p99wEhLmJSs0VQqST66SbQXXBoaJY0pF4BNjRYa/sOQAxx6lXAaAFIlx+15tXJQ=="],
+    "libsodium-wrappers": ["libsodium-wrappers@0.8.0", "", { "dependencies": { "libsodium": "^0.8.0" } }, "sha512-PVyXAtP1nmpQrDKAVnA8pir0f7bj7vmMGs7mb+0OCSJ+BOfLNBb5hPy2GHfrx6cQ+Co9fMliR5R0WRbVuMllNA=="],
 
     "libsql": ["libsql@0.5.22", "", { "dependencies": { "@neon-rs/load": "^0.0.4", "detect-libc": "2.0.2" }, "optionalDependencies": { "@libsql/darwin-arm64": "0.5.22", "@libsql/darwin-x64": "0.5.22", "@libsql/linux-arm-gnueabihf": "0.5.22", "@libsql/linux-arm-musleabihf": "0.5.22", "@libsql/linux-arm64-gnu": "0.5.22", "@libsql/linux-arm64-musl": "0.5.22", "@libsql/linux-x64-gnu": "0.5.22", "@libsql/linux-x64-musl": "0.5.22", "@libsql/win32-x64-msvc": "0.5.22" }, "os": [ "linux", "win32", "darwin", ], "cpu": [ "arm", "x64", "arm64", ] }, "sha512-NscWthMQt7fpU8lqd7LXMvT9pi+KhhmTHAJWUB/Lj6MWa0MKFv0F2V4C6WKKpjCVZl0VwcDz4nOI3CyaT1DDiA=="],
 
